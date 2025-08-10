@@ -1,0 +1,16 @@
+{
+  "name": "netkampus",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:mobile": "pnpm --filter mobile start",
+    "lint": "echo \"add eslint later\"",
+    "typecheck": "echo \"add ts checks later\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@10.14.0"
+}
